@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:whitesmoke;
+
+}
+
+
+
+
+.logo{
+    text-align: center;
+    color: lightslategray;
+}
+
+a{
+    text-decoration: inherit;
+    color: inherit;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+
+
+
+
+a[title]{
+    color: lightslategray;
+}
+
+
+
+.menu a{
+    text-decoration: none;
+    color:black; 
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px;
+    margin:2px ;
+    
+    }
+
+.menu a:hover{
+   
+ background-color: rgba(117, 115, 115, 0.137);
+ 
+   color: rgb(0, 0, 0);
+   
+ 
+}
+.header{
+    background: rgb(0, 0, 0);
+    margin: 5px;
+    padding: 5px;
+   
+  
+}
+.header a{
+    color: lightslategray;
+    margin: 10px;
+    padding: 1px;
+    letter-spacing: 1px;
+   
+}
+.covid:focus{
+    color: red;
+}
+p{
+ font-weight: bold;
+ font-size: x-large;
+}
+.con{
+    margin: 100px;
+    
+}
+.submit{
+    background-color: black;
+    color: whitesmoke;
+   
+}
